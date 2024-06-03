@@ -11,3 +11,102 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.text-block {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.sidebar {
+  width: 250px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.workspace {
+  flex-grow: 1;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+.component-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #e0e0e0;
+  cursor: grab;
+}
+
+.text-block,
+.button-component,
+.footer-component,
+.header-component,
+.card-component,
+.form-component,
+.grid-layout-component,
+.social-media-icons-component,
+.video-embed-component,
+.carousel-component {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.image-holder img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-layout-component {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background: #e0e0e0;
+  padding: 10px;
+}
+
+.social-media-icons-component a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.carousel img {
+  width: 300px;
+  height: auto;
+}
+
+.carousel button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel button:hover {
+  background-color: #0056b3;
+}
+
+
+.form-parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto
+}
